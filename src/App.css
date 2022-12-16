@@ -37,3 +37,11 @@
     transform: translateY(0px);
   }
 }
+
+.sidebar,
+.body {
+  transition: all 0.5s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
